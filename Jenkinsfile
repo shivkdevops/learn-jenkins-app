@@ -34,5 +34,6 @@ pipeline {
                     npm -v
                 '''
             }
+        }
     }
 }
