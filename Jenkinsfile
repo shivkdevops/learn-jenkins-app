@@ -25,7 +25,8 @@ pipeline {
                 '''
             }
         }
-        stage('Test') {
+    }
+    stage('Test') {
             steps {
                 echo "Running tests..."
                 sh '''
@@ -35,6 +36,4 @@ pipeline {
                     // npm test
                 '''
             }
-        }
-    }
 }
