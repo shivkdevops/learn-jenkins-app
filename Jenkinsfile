@@ -4,6 +4,7 @@ pipeline {
     environment {
         HOME = "${WORKSPACE}"
         NPM_CONFIG_CACHE = "${WORKSPACE}/.npm"
+    }
 
     stages {
         stage('Build') {
