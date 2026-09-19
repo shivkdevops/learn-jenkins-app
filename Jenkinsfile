@@ -25,15 +25,14 @@ pipeline {
                 '''
             }
         }
-    }
-    stage('Test') {
+        stage('Test') {
             steps {
                 echo "Running tests..."
                 sh '''
                     test -f build/index.html
-                    // node -v
-                    // npm -v
-                    // npm test
+                    node -v
+                    npm -v
                 '''
             }
+    }
 }
