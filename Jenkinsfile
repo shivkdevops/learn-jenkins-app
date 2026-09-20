@@ -74,8 +74,8 @@ pipeline {
                                 reportDir: 'e2e-results/html-report',
                                 reportFiles: 'index.html',
                                 reportName: 'E2E Test Report'
-                            ]
-                       )
+                            ])
+                        }
                     }
                 }
             }
